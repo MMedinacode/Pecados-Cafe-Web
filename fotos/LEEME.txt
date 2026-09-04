@@ -1,0 +1,21 @@
+Carpeta de fotos de Pecados Café & Crêpes.
+
+A diferencia de otros proyectos, este sitio YA nace con fotos reales
+incrustadas directamente en el código (heredadas del prototipo anterior
+en "Paginas Web/pecados-cafe.html"): el logo, la foto del hero (crêpe
+Frutos del Bosque), la foto del mural interior y las 12 fotos de
+productos de la carta.
+
+Usa esta carpeta si más adelante quieres:
+- Reemplazar alguna foto por una más nueva o de mejor calidad.
+- Agregar fotos nuevas (por ejemplo, más ángulos del local, del salón,
+  de la terraza).
+- Actualizar el logo si el cliente confirma una versión distinta.
+
+Si dejas archivos acá, avísame y actualizo el código para usarlos.
+
+PENDIENTE DE CONFIRMAR CON EL CLIENTE (no inventado, solo falta dato):
+- Número de WhatsApp real (hoy se usa el teléfono fijo confirmado en
+  Google Maps como número de contacto, con nota visible de que falta
+  confirmar si tiene WhatsApp activo).
+- Horario de sábado y domingo (Google Maps no lo expone públicamente).
