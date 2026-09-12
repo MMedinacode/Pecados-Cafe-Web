@@ -310,7 +310,9 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>Sitio demo diseñado con cariño · WhatsApp y horario de fin de semana pendientes de confirmación con el cliente</p>
+    <!-- El fin de semana ya está confirmado en su ficha de Google (cerrado
+         sábado y domingo); lo único pendiente sigue siendo el WhatsApp. -->
+    <p>Sitio demo diseñado con cariño · WhatsApp pendiente de confirmación con el cliente</p>
   </div>
 </footer>
 
@@ -362,5 +364,8 @@
 
 <script src="script.js"></script>
 <script src="carta-fotos.js"></script>
+<!-- Horario REAL de su ficha de Google Maps (11-09-2026). El módulo horario.js pinta la semana completa y el estado en vivo. -->
+<script>window.HORARIO={dias:["09:30 - 18:30","09:30 - 18:30","09:30 - 18:30","09:30 - 18:30","09:30 - 18:30","Cerrado","Cerrado"],fuente:"Google Maps, 11-09-2026"};</script>
+<script src="horario.js"></script>
 </body>
 </html>
