@@ -253,11 +253,16 @@
       </div>
 
       <div class="contact-grid">
-        <!-- WhatsApp: número NO confirmado por el cliente. Se usa el fijo real
-             (2) 2646 5639 como placeholder marcado — ver whatsapp-note abajo. -->
-        <a class="contact-box" href="https://wa.me/56226465639" target="_blank" rel="noopener">
+        <!-- ⚠️ 16-09-2026: esto era un botón de WhatsApp sobre (2) 2646 5639.
+             Ese número es un FIJO de Santiago (área 2), no un celular. Un fijo
+             puede tener WhatsApp Business, pero acá no está confirmado, y un
+             wa.me sobre un número sin WhatsApp le contesta al cliente "el
+             número no está en WhatsApp". Prometer un canal que quizá no existe
+             es peor que no ofrecerlo: pasa a ser una llamada, que sí funciona
+             seguro. Si el local confirma que tiene WhatsApp, se revierte. -->
+        <a class="contact-box" href="tel:+56226465639">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.6" style="flex-shrink:0;"><path d="M17 14c-.3-.15-1.75-.86-2-.96-.27-.1-.47-.15-.66.15-.2.3-.76.95-.93 1.15-.17.2-.34.22-.63.08-.3-.15-1.24-.46-2.37-1.46-.87-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.18-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.2 5.1 4.5.71.3 1.27.5 1.7.63.72.23 1.37.2 1.9.12.58-.09 1.75-.72 2-1.4.24-.7.24-1.3.17-1.4-.07-.13-.27-.2-.56-.35Z"/><circle cx="12" cy="12" r="9.3"/></svg>
-          <div><p class="cb-label">WhatsApp</p><p class="cb-value">(2) 2646 5639</p></div>
+          <div><p class="cb-label">Teléfono</p><p class="cb-value">(2) 2646 5639</p></div>
         </a>
         <a class="contact-box" href="https://instagram.com/pecados_cafe" target="_blank" rel="noopener">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.6" style="flex-shrink:0;"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
@@ -320,8 +325,9 @@
 <a id="floatInstagram" href="https://instagram.com/pecados_cafe" target="_blank" rel="noopener" class="float-widget" aria-label="Instagram">
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="white" stroke="none"/></svg>
 </a>
-<a id="floatWhatsapp" href="https://wa.me/56226465639" target="_blank" rel="noopener" class="float-widget" aria-label="WhatsApp">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7"><path d="M17 14c-.3-.15-1.75-.86-2-.96-.27-.1-.47-.15-.66.15-.2.3-.76.95-.93 1.15-.17.2-.34.22-.63.08-.3-.15-1.24-.46-2.37-1.46-.87-.78-1.47-1.74-1.64-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.66-1.6-.9-2.18-.24-.58-.48-.5-.66-.5h-.56c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.5s1.07 2.9 1.22 3.1c.15.2 2.1 3.2 5.1 4.5.71.3 1.27.5 1.7.63.72.23 1.37.2 1.9.12.58-.09 1.75-.72 2-1.4.24-.7.24-1.3.17-1.4-.07-.13-.27-.2-.56-.35Z"/><circle cx="12" cy="12" r="9.3"/></svg>
+<!-- Mismo motivo que arriba: el flotante llama en vez de abrir WhatsApp. -->
+<a id="floatWhatsapp" href="tel:+56226465639" class="float-widget" aria-label="Llamar a Pecados Café">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="none"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
 </a>
 
 <!-- ======================= CARRITO / MODAL ======================= -->
